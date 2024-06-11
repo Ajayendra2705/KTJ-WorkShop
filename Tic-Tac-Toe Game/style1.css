@@ -1,0 +1,96 @@
+.navbar {
+    height: 80px;
+    background-color: aquamarine;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#text {
+    display: flex;
+    font-size: 45px;
+    justify-content: center;
+    color: red;
+    margin-top: 28px;
+
+}
+
+#logo {
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+}
+
+.textbar {
+    height: 51px;
+    background-color: black;
+    align-items: center;
+}
+
+#text_text {
+    display: flex;
+    justify-content: center;
+}
+
+#new_text {
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+    color: white;
+    margin-top: 13px;
+}
+
+#next_area {
+    height: 505px;
+    margin-top: 0px;
+    background-color: blue;
+    color: red;
+    display: flex;
+    justify-content: center;
+}
+
+#board {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 375px;
+    height: 375px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    background-color: black;
+
+}
+
+.square {
+    width: 120px;
+    height: 120px;
+    border: 1px solid #D3D3D3;
+    background-color: #F5F5F5;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.restartButton{
+    display: flex;
+    align-items: center;
+}
+.bottom {
+    height: 45px;
+    background-color: black;
+    align-items: center;
+}
+
+#bottom_text {
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+    color: white;
+}
+
+#bottom_text_final {
+    font-size: 20px;
+    color: white;
+}
+
