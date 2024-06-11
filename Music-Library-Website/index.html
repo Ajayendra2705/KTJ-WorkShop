@@ -1,1 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Library Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="logo.png" alt="Music Library Logo">
+            </div>
+            <ul>
+                <li><a href="#intro">Home</a></li>
+                <li><a href="#featured-playlists">Featured Playlists</a></li>
+                <li><a href="#recommended-albums">Recommended Albums</a></li>
+                <li><a href="#user-reviews">User Reviews</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <section id="intro">
+        <div class="intro-container">
+            <div class="intro-text">
+                <h1>Welcome to Our Music Library</h1>
+                <p>Discover your favorite tunes, explore new artists, and build your perfect playlist.</p>
+                <button>Explore Featured Playlists</button>
+            </div>
+            <div class="intro-image">
+                <img src="main_image.png" id="image">
+            </div>
+        </div>
+    </section>
+
+    <section id="featured-playlists">
+        <h2 id="featured-text">Featured Playlists</h2>
+        <p>Check out our handpicked selections for your listening pleasure.</p>
+        <div class="playlist-cards">
+            <a href="#song1"><img src="card1,png.jpg" id="card1"></a>
+            <a href="#song2"><img src="card2.png" id="card2"></a>
+            <a href="#song3"><img src="card3.png" id="card3"></a>
+        </div>
+    </section>
+
+    <section id="recommended-albums">
+        <h2 id="featured-text">Recommended Albums</h2>
+        <p>Browse through our curated selection of albums.</p>
+        <form>
+            <label for="review">Search for a Album:</label>
+            <input id="search" name="search" required></input>
+
+            <button type="submit">Search</button>
+        </form>        <div class="album-cards">
+            <a href="#song1"><img src="card1,png.jpg" id="card1"></a></li>
+            <a href="#song2"><img src="card2.png" id="card2"></a></li>
+            <a href="#song3"><img src="card3.png" id="card3"></a></li>        </div>
+    </section>
+
+    <section id="user-reviews">
+        <h2 id="featured-text">User Reviews</h2>
+        <p>See what our users have to say about our music library.</p>
+        <div class="review-cards">
+            <a href="#song1"><img src="card1,png.jpg" id="card1"></a></li>
+            <a href="#song2"><img src="card2.png" id="card2"></a></li>
+            <a href="#song3"><img src="card3.png" id="card3"></a></li>        </div>
+        <div class="review-form">
+            <h3>Share Your Thoughts</h3>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="review">Review:</label>
+                <input id="review" name="review" required></input>
+
+                <button type="submit">Submit Review</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2023 Music Library</p>
+            <ul class="social-media">
+                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+            <ul class="footer-links">
+                <li><a href="#">Terms and Conditions</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
